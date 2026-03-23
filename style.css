@@ -3,7 +3,7 @@
   top: 34px;
   left: 0;
   width: 100%;
-  padding-left: 390px;
+  padding-left: 360px;
   display: flex;
   align-items: center;
   background: transparent;
@@ -73,7 +73,7 @@ img {
   left: 0;
   width: 360px;
   height: 100vh;
-  padding: 185px 20px 34px 92px;
+  padding: 208px 20px 34px 92px;
   background: transparent;
   display: flex;
   flex-direction: column;
@@ -87,8 +87,8 @@ img {
 }
 
 .portrait {
-  width: 150px;
-  height: 150px;
+  width: 142px;
+  height: 142px;
   object-fit: cover;
   border-radius: 50%;
   border: 2px solid #ff5a1f;
@@ -98,13 +98,13 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 4px;
-  margin-bottom: 24px;
+  gap: 8px;
+  margin-bottom: 30px;
   text-align: center;
 }
 
 .nav a {
-  font-family: "Avenir", "Avenir Next", Arial, sans-serif;
+  font-family: "Avenir Light", "Avenir", "Avenir Next", Arial, sans-serif;
   font-size: 17px;
   font-weight: 300;
   line-height: 1.08;
@@ -118,10 +118,14 @@ img {
 }
 
 .nav a.small-link {
-  font-family: "Avenir", "Avenir Next", Arial, sans-serif;
+  font-family: "Avenir Light", "Avenir", "Avenir Next", Arial, sans-serif;
   font-size: 11px;
   font-weight: 300;
   line-height: 1.15;
+}
+
+.nav a.small-link:first-of-type {
+  margin-top: 14px;
 }
 
 .socials {
@@ -130,12 +134,12 @@ img {
   justify-content: center;
   align-items: center;
   gap: 31px;
-  margin-top: 34px;
+  margin-top: 30px;
 }
 
 .social-icon {
-  width: 32px;
-  height: 32px;
+  width: 28px;
+  height: 28px;
   object-fit: contain;
   display: block;
   opacity: 1;
