@@ -73,7 +73,7 @@ img {
   left: 0;
   width: 360px;
   height: 100vh;
-  padding: 208px 20px 34px 92px;
+  padding: 245px 20px 34px 92px;
   background: transparent;
   display: flex;
   flex-direction: column;
@@ -84,6 +84,7 @@ img {
 .portrait-link {
   display: inline-block;
   margin-bottom: 20px;
+  margin-top: -10px;
 }
 
 .portrait {
