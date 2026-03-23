@@ -16,9 +16,10 @@
 
 .site-header h1 {
   margin: 0;
-  font-size: 1.28rem;
-  letter-spacing: 0.14em;
-  font-weight: 700;
+  font-family: "Avenir", "Avenir Next", Arial, sans-serif;
+  font-size: 20px;
+  letter-spacing: 0.12em;
+  font-weight: 400;
   color: #fff;
   line-height: 1;
 }
@@ -70,13 +71,13 @@ img {
   position: fixed;
   top: 0;
   left: 0;
-  width: 300px;
+  width: 360px;
   height: 100vh;
-  padding: 185px 20px 34px 90px;
+  padding: 185px 20px 34px 92px;
   background: transparent;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  align-items: center;
   z-index: 1000;
 }
 
@@ -86,8 +87,8 @@ img {
 }
 
 .portrait {
-  width: 122px;
-  height: 122px;
+  width: 150px;
+  height: 150px;
   object-fit: cover;
   border-radius: 50%;
   border: 2px solid #ff5a1f;
@@ -96,14 +97,17 @@ img {
 .nav {
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 4px;
-  margin-bottom: 18px;
+  margin-bottom: 24px;
+  text-align: center;
 }
 
 .nav a {
-  font-size: 0.86rem;
-  font-weight: 700;
-  line-height: 1.05;
+  font-family: "Avenir", "Avenir Next", Arial, sans-serif;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 1.08;
   color: #fff;
   transition: color 0.2s ease;
 }
@@ -114,33 +118,39 @@ img {
 }
 
 .nav a.small-link {
-  font-size: 0.5rem;
-  font-weight: 500;
+  font-family: "Avenir", "Avenir Next", Arial, sans-serif;
+  font-size: 11px;
+  font-weight: 300;
   line-height: 1.15;
 }
 
 .socials {
   display: flex;
-  flex-direction: column;
-  gap: 14px;
-  margin-top: 40px;
-}
-
-.socials a {
-  font-size: 0.82rem;
-  color: #fff;
-  transition: color 0.2s ease;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 31px;
+  margin-top: 34px;
 }
 
 .social-icon {
-  width: 20px;
-  height: 20px;
-  opacity: 0.9;
-  transition: opacity 0.2s ease;
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+  display: block;
+  opacity: 1;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.socials a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .socials a:hover .social-icon {
-  opacity: 1;
+  opacity: 0.85;
+  transform: translateY(-1px);
   color: #ff5a1f;
 }
 
