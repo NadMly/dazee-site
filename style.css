@@ -1,33 +1,31 @@
 .site-header {
   position: fixed;
-  top: 38px;
+  top: 34px;
   left: 0;
   width: 100%;
-  padding-left: 405px;
+  padding-left: 408px;
   display: flex;
   align-items: center;
   background: transparent;
   z-index: 2000;
-  pointer-events: none;
 }
 
 .header-inner {
   display: inline-block;
-  pointer-events: auto;
 }
 
 .site-header h1 {
   margin: 0;
-  font-size: 1.05rem;
-  letter-spacing: 0.18em;
+  font-size: 0.95rem;
+  letter-spacing: 0.17em;
   font-weight: 700;
   color: #fff;
   line-height: 1;
 }
 
 .header-sub {
-  margin-top: 4px;
-  font-size: 0.72rem;
+  margin-top: 3px;
+  font-size: 0.68rem;
   color: #ff5a1f;
   line-height: 1;
 }
@@ -66,9 +64,9 @@ img {
   position: fixed;
   top: 0;
   left: 0;
-  width: 285px;
+  width: 300px;
   height: 100vh;
-  padding: 150px 22px 34px 52px;
+  padding: 168px 22px 34px 78px;
   background: transparent;
   display: flex;
   flex-direction: column;
@@ -92,14 +90,14 @@ img {
 .nav {
   display: flex;
   flex-direction: column;
-  gap: 7px;
-  margin-bottom: 22px;
+  gap: 6px;
+  margin-bottom: 18px;
 }
 
 .nav a {
-  font-size: 0.98rem;
+  font-size: 0.78rem;
   font-weight: 700;
-  line-height: 1.05;
+  line-height: 1.08;
   color: #fff;
   transition: color 0.2s ease;
 }
@@ -107,6 +105,11 @@ img {
 .nav a:hover,
 .nav a.active {
   color: #ff5a1f;
+}
+.nav a.small-link {
+  font-size: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
 }
 
 .socials {
@@ -126,9 +129,10 @@ img {
 }
 
 .content {
-  margin-left: 285px;
+  margin-left: 330px;
   min-height: 100vh;
   background: #000;
+  position: relative;
 }
 
 .home-page {
@@ -144,31 +148,35 @@ img {
 }
 
 .hero-image {
-  width: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
   height: 100vh;
+  width: auto;
+  max-width: none;
   object-fit: contain;
-  object-position: right center;
+  object-position: right top;
 }
 
 .hero-quote {
   position: absolute;
-  right: 7.5%;
-  bottom: 16%;
-  text-align: right;
-  max-width: 470px;
+  right: 8%;
+  bottom: 13%;
+  text-align: center;
+  max-width: 430px;
   color: #fff;
 }
 
 .hero-quote p {
-  margin: 0 0 6px 0;
-  font-size: 1rem;
+  margin: 0 0 4px 0;
+  font-size: 0.9rem;
   font-style: italic;
   font-weight: 300;
-  line-height: 1.2;
+  line-height: 1.15;
 }
 
 .hero-quote span {
-  font-size: 0.82rem;
+  font-size: 0.72rem;
 }
 
 /* Mobile */
