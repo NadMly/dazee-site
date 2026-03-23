@@ -17,7 +17,7 @@
 .site-header h1 {
   margin: 0;
   font-family: "Avenir", "Avenir Next", Arial, sans-serif;
-  font-size: 20px;
+  font-size: 22px;
   letter-spacing: 0.12em;
   font-weight: 400;
   color: #fff;
@@ -32,9 +32,10 @@
 }
 .header-logo {
   display: block;
-  margin-top: 2px;
-  width: 90px;
+  width: 92px;
   height: auto;
+  margin-top: 1px;
+  margin-left: -6px;
 }
 * {
   box-sizing: border-box;
