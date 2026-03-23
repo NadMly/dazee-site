@@ -1,9 +1,9 @@
 .site-header {
   position: fixed;
-  top: 42px;
+  top: 34px;
   left: 0;
   width: 100%;
-  padding-left: 430px;
+  padding-left: 390px;
   display: flex;
   align-items: center;
   background: transparent;
@@ -16,18 +16,18 @@
 
 .site-header h1 {
   margin: 0;
-  font-size: 1.18rem;
-  letter-spacing: 0.17em;
+  font-size: 1.28rem;
+  letter-spacing: 0.14em;
   font-weight: 700;
   color: #fff;
   line-height: 1;
 }
 
 .header-sub {
-  margin-top: 4px;
-  font-size: 0.78rem;
-  color: #ff5a1f;
+  margin-top: 2px;
+  font-size: 0.8rem;
   line-height: 1;
+  color: #ff5a1f;
 }
 * {
   box-sizing: border-box;
@@ -64,9 +64,9 @@ img {
   position: fixed;
   top: 0;
   left: 0;
-  width: 320px;
+  width: 300px;
   height: 100vh;
-  padding: 175px 22px 34px 86px;
+  padding: 185px 20px 34px 78px;
   background: transparent;
   display: flex;
   flex-direction: column;
@@ -76,12 +76,12 @@ img {
 
 .portrait-link {
   display: inline-block;
-  margin-bottom: 22px;
+  margin-bottom: 20px;
 }
 
 .portrait {
-  width: 132px;
-  height: 132px;
+  width: 122px;
+  height: 122px;
   object-fit: cover;
   border-radius: 50%;
   border: 2px solid #ff5a1f;
@@ -90,14 +90,14 @@ img {
 .nav {
   display: flex;
   flex-direction: column;
-  gap: 7px;
-  margin-bottom: 20px;
+  gap: 4px;
+  margin-bottom: 18px;
 }
 
 .nav a {
-  font-size: 0.92rem;
+  font-size: 0.86rem;
   font-weight: 700;
-  line-height: 1.08;
+  line-height: 1.05;
   color: #fff;
   transition: color 0.2s ease;
 }
@@ -106,30 +106,32 @@ img {
 .nav a.active {
   color: #ff5a1f;
 }
+
 .nav a.small-link {
   font-size: 0.5rem;
   font-weight: 500;
-  line-height: 1.2;
+  line-height: 1.15;
 }
 
 .socials {
   display: flex;
-  gap: 16px;
+  gap: 14px;
   margin-top: auto;
   flex-wrap: wrap;
 }
 
 .socials a {
-  font-size: 0.9rem;
+  font-size: 0.82rem;
   color: #fff;
   transition: color 0.2s ease;
 }
+
 .socials a:hover {
   color: #ff5a1f;
 }
 
 .content {
-  margin-left: 320px;
+  margin-left: 300px;
   min-height: 100vh;
   background: #000;
   position: relative;
@@ -150,9 +152,9 @@ img {
 .hero-image {
   position: absolute;
   top: 0;
-  right: -20px;
+  right: -10px;
   height: 100vh;
-  width: 58vw;
+  width: 68vw;
   max-width: none;
   object-fit: contain;
   object-position: right top;
@@ -160,23 +162,23 @@ img {
 
 .hero-quote {
   position: absolute;
-  right: 7%;
+  right: 6.5%;
   bottom: 12%;
+  width: 420px;
   text-align: center;
-  max-width: 460px;
   color: #fff;
 }
 
 .hero-quote p {
-  margin: 0 0 5px 0;
-  font-size: 0.98rem;
+  margin: 0 0 4px 0;
+  font-size: 0.95rem;
   font-style: italic;
   font-weight: 300;
   line-height: 1.15;
 }
 
 .hero-quote span {
-  font-size: 0.8rem;
+  font-size: 0.78rem;
 }
 
 /* Mobile */
