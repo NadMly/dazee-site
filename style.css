@@ -29,6 +29,12 @@
   line-height: 1;
   color: #ff5a1f;
 }
+.header-logo {
+  display: block;
+  margin-top: 2px;
+  width: 90px;
+  height: auto;
+}
 * {
   box-sizing: border-box;
 }
