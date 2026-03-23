@@ -72,7 +72,7 @@ img {
   left: 0;
   width: 300px;
   height: 100vh;
-  padding: 185px 20px 34px 78px;
+  padding: 185px 20px 34px 90px;
   background: transparent;
   display: flex;
   flex-direction: column;
@@ -121,9 +121,9 @@ img {
 
 .socials {
   display: flex;
+  flex-direction: column;
   gap: 14px;
-  margin-top: auto;
-  flex-wrap: wrap;
+  margin-top: 40px;
 }
 
 .socials a {
@@ -132,7 +132,15 @@ img {
   transition: color 0.2s ease;
 }
 
-.socials a:hover {
+.social-icon {
+  width: 20px;
+  height: 20px;
+  opacity: 0.9;
+  transition: opacity 0.2s ease;
+}
+
+.socials a:hover .social-icon {
+  opacity: 1;
   color: #ff5a1f;
 }
 
@@ -158,9 +166,9 @@ img {
 .hero-image {
   position: absolute;
   top: 0;
-  right: -10px;
-  height: 100vh;
-  width: 68vw;
+  right: -40px;
+  height: 115vh;
+  width: auto;
   max-width: none;
   object-fit: contain;
   object-position: right top;
@@ -168,8 +176,8 @@ img {
 
 .hero-quote {
   position: absolute;
-  right: 6.5%;
-  bottom: 12%;
+  right: 6%;
+  bottom: 18%;
   width: 420px;
   text-align: center;
   color: #fff;
